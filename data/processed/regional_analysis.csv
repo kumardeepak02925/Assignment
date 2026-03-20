@@ -1,0 +1,4 @@
+region,customers,orders,total_revenue,avg_revenue_per_customer
+Asia,1,1,1200.0,1200.0
+Europe,2,2,1600.0,800.0
+US,4,4,3050.0,762.5

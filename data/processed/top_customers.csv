@@ -1,0 +1,8 @@
+customer_id,name,region,total_spend,churned
+1,John Doe,US,1200.0,False
+5,David Kim,Asia,1200.0,False
+10,Ava Taylor,US,1200.0,False
+2,Alice Smith,Europe,800.0,False
+8,Olivia Davis,Europe,800.0,False
+7,Liam Johnson,US,500.0,False
+4,Emma Brown,US,150.0,False

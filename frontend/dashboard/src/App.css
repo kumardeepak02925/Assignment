@@ -1,0 +1,85 @@
+body{
+  font-family:Arial;
+  background:#03050a;
+  margin:0;
+  }
+  
+  .container{
+  padding:20px;
+  }
+  
+  h1{
+  text-align:center;
+  margin-bottom:30px;
+  }
+  
+  /* KPI cards */
+  
+  .kpi-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  margin-bottom:30px;
+  }
+  
+  .kpi-card{
+  background:black;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  text-align:center;
+  }
+  
+  .kpi-card p{
+  font-size:24px;
+  font-weight:bold;
+  margin-top:10px;
+  }
+  
+  /* Charts */
+  
+  .chart-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-bottom:20px;
+  }
+  
+  .card{
+  background:black;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom:20px;
+  }
+  
+  /* Tables */
+  
+  table{
+  width:100%;
+  border-collapse:collapse;
+  }
+  
+  th,td{
+  padding:10px;
+  border-bottom:1px solid #ddd;
+  text-align:left;
+  }
+  
+  th{
+  background:black;
+  }
+  
+  /* Mobile responsive */
+  
+  @media(max-width:768px){
+  
+  .kpi-grid{
+  grid-template-columns:1fr 1fr;
+  }
+  
+  .chart-grid{
+  grid-template-columns:1fr;
+  }
+  
+  }
